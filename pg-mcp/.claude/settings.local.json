@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run:*)",
+      "Bash(claude mcp:*)",
+      "Bash(curl -sI \"https://sbp.enterprisedb.com/getfile.jsp?fileid=1259132\")",
+      "Bash(curl -s https://www.postgresql.org/download/windows/)",
+      "Bash(curl -sI \"https://sbp.enterprisedb.com/getfile.jsp?fileid=1258958\")",
+      "Bash(\"$TEMP/postgresql-16.3-2-windows-x64.exe\" --help)",
+      "Read(//c/Program Files/PostgreSQL/16/data/**)",
+      "Read(//c/Program Files/PostgreSQL/16/data/log/**)",
+      "Bash(where powershell.exe)",
+      "Read(//c/Windows/System32/WindowsPowerShell/v1.0/**)"
+    ]
+  }
+}
